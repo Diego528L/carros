@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex">
+    <div className="flex bg-amber-400">
       <div className="">
       <div className="text-center p-4 w-100  rounded flex flex-col  items-center justify-center">
       <Image
@@ -80,7 +80,7 @@ export default function Home() {
     </div>
     </div>
 
-    <div className="">
+    <div className="bg-amber-400">
       <div className="text-center p-4 w-100  rounded flex flex-col  items-center justify-center">
       <Image
         src="/carro6.jpg"
